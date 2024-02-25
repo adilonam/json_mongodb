@@ -22,8 +22,6 @@ class MongoDb:
 
 
     def connect_db(self):
-        # uri = "mongodb+srv://adilabbadi1996:xfClbv4jzWQLkmis@cluster0.thnqkdd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-
         # Create a new client and connect to the server
         self.client = MongoClient(self.uri, server_api=ServerApi('1'))
 
